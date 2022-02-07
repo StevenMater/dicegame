@@ -1,10 +1,32 @@
 .app {
+  border: 5px;
+  border-style: double;
   text-align: center;
+  background-color: azure;
 }
 
 .card {
+  background-color: darkgrey;
   border: 5px;
   border-style: double;
+  margin: 10px 30%;
+  padding: 2%;
+}
+
+.cardRollA {
+  background-color: crimson;
+  border: 5px;
+  border-style: solid;
+  margin: 10px 30%;
+  padding: 2%;
+}
+
+.cardRollB {
+  color: antiquewhite;
+  background-color: darkblue;
+  border: 5px;
+  border-style: solid;
+  border-color: black;
   margin: 10px 30%;
   padding: 2%;
 }
